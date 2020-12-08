@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/fpgawork/mmi/mmi.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="762600fs"></ZoomStartTime>
+      <ZoomEndTime time="769361fs"></ZoomEndTime>
+      <Cursor1Time time="772000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="376"></NameColumnWidth>
+      <ValueColumnWidth column_width="85"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_ARADDR" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_ARADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_ARREADY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_ARREADY</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_ARREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_ARVALID" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_ARVALID</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_ARVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_ARSIZE" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_ARSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_ARSIZE[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_AWADDR" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_AWREADY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_AWREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_AWSIZE" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_AWSIZE[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_AWVALID" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_AWVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_BREADY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_BREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_BRESP" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_BVALID" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_BVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_RDATA" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_RDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_RREADY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_RREADY</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_RREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_RLAST" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_RLAST</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_RLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_RRESP" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_RRESP[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_RVALID" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_RVALID</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_RVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_WDATA" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_WLAST" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_WLAST</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_WLAST</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_WREADY" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_WREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_WVALID" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_WVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="ecat_tb_i/ps7_0_axi_periph_M02_AXI_WSTRB" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ecat_tb_i/ps7_0_axi_periph_M02_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ps7_0_axi_periph_M02_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

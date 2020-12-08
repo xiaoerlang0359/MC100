@@ -1,0 +1,186 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Dec  4 16:44:40 2020
+| Host         : LAPTOP-BCHII1Q0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mii_apb_bridge_2_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of mii_apb_bridge_2_0 (xilinx.com:user:apb_bridge:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mii_apb_bridge_2_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'err'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Dec  4 16:44:40 2020
+| Host         : LAPTOP-BCHII1Q0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mii_apb_bridge_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of mii_apb_bridge_1_0 (xilinx.com:user:apb_bridge:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mii_apb_bridge_1_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'err'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Dec  4 16:44:40 2020
+| Host         : LAPTOP-BCHII1Q0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mii_apb_bridge_0_3'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of mii_apb_bridge_0_3 (xilinx.com:user:apb_bridge:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'mii_apb_bridge_0_3'. These changes may impact your design.
+
+
+-Upgrade has added port 'err'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Dec  4 16:44:36 2020
+| Host         : LAPTOP-BCHII1Q0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ecat_tb_apb_bridge_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of ecat_tb_apb_bridge_0_0 (xilinx.com:user:apb_bridge:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'ecat_tb_apb_bridge_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'err'
+
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Nov  8 19:24:29 2020
+| Host         : LAPTOP-BCHII1Q0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mii_apb_bridge_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mii_apb_bridge_2_0 (xilinx.com:user:apb_bridge:1.0) from (Rev. 4) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Nov  8 19:24:29 2020
+| Host         : LAPTOP-BCHII1Q0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mii_apb_bridge_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mii_apb_bridge_1_0 (xilinx.com:user:apb_bridge:1.0) from (Rev. 4) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Nov  8 19:24:29 2020
+| Host         : LAPTOP-BCHII1Q0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-2
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mii_apb_bridge_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mii_apb_bridge_0_3 (xilinx.com:user:apb_bridge:1.0) from (Rev. 4) to (Rev. 2)
+

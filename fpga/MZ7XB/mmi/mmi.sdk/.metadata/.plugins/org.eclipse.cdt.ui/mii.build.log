@@ -1,0 +1,8 @@
+20:21:20 **** Incremental Build of configuration Release for project mii ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+20:21:20 Build Finished (took 270ms)
+

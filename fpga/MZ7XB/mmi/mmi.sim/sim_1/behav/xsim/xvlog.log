@@ -1,0 +1,32 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/bus_split.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bus_split
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/crc32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CRC32_D4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/crc_d8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module crc_d8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/dhsm_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dhsm_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/dhsm_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dhsm_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/ecat_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ecat_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/esi_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module esi_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/ffmu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ffmu
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/gnrl_dffs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gnrl_dfflr
+INFO: [VRFC 10-311] analyzing module gnrl_dffl
+INFO: [VRFC 10-311] analyzing module gnrl_dffr
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/mii_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mii_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/norm_arbt.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module norm_arbt
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/psm_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psm_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sources_1/new/watch_dog.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module watch_dog
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/fpgawork/mmi/mmi.srcs/sim_1/new/dhsm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dhsm_tb

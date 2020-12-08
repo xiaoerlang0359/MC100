@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="dhsm_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="dhsm_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="672420000fs"></ZoomStartTime>
+      <ZoomEndTime time="801495611fs"></ZoomEndTime>
+      <Cursor1Time time="778463000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="26" />
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/psm_top_port0/rx_clk" type="logic">
+      <obj_property name="ElementShortName">rx_clk</obj_property>
+      <obj_property name="ObjectShortName">rx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/psm_top_port0/tx_valid" type="logic">
+      <obj_property name="ElementShortName">tx_valid</obj_property>
+      <obj_property name="ObjectShortName">tx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/psm_top_port0/tx_byte" type="array">
+      <obj_property name="ElementShortName">tx_byte[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_byte[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/psm_top_port0/tx_data" type="array">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/psm_top_port0/rx_valid" type="logic">
+      <obj_property name="ElementShortName">rx_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/psm_top_port0/rx_data" type="array">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/psm_top_port0/rx_byte" type="array">
+      <obj_property name="ElementShortName">rx_byte[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_byte[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/u_dhsm_top/state" type="array">
+      <obj_property name="ElementShortName">state[23:0]</obj_property>
+      <obj_property name="ObjectShortName">state[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_dhsm_test/u_dhsm_top/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[23:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/sof" type="logic">
+      <obj_property name="ElementShortName">sof</obj_property>
+      <obj_property name="ObjectShortName">sof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/eof" type="logic">
+      <obj_property name="ElementShortName">eof</obj_property>
+      <obj_property name="ObjectShortName">eof</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/addr" type="array">
+      <obj_property name="ElementShortName">addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/wdata" type="array">
+      <obj_property name="ElementShortName">wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/eepcntl_r" type="array">
+      <obj_property name="ElementShortName">eepcntl_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eepcntl_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/eepstat_r" type="array">
+      <obj_property name="ElementShortName">eepstat_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eepstat_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/eepcmd_r" type="array">
+      <obj_property name="ElementShortName">eepcmd_r[2:0]</obj_property>
+      <obj_property name="ObjectShortName">eepcmd_r[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/eepcmd_ena" type="logic">
+      <obj_property name="ElementShortName">eepcmd_ena</obj_property>
+      <obj_property name="ObjectShortName">eepcmd_ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/eepcmd_nxt" type="array">
+      <obj_property name="ElementShortName">eepcmd_nxt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">eepcmd_nxt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/eepbusy_r" type="logic">
+      <obj_property name="ElementShortName">eepbusy_r</obj_property>
+      <obj_property name="ObjectShortName">eepbusy_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/eepaddr0_r" type="array">
+      <obj_property name="ElementShortName">eepaddr0_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eepaddr0_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/dhsm_tb/u_ecat_top/u_esi_top/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+</wave_config>

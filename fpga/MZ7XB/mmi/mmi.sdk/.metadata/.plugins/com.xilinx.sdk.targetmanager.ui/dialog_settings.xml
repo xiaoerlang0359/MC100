@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="ecat_tb_wrapper.bit" key="ecat_tb_wrapper_hw_platform_0-bitFile"/>
+	<item value="Local" key="mii_wrapper_hw_platform_0-target"/>
+	<item value="false" key="mii_wrapper_hw_platform_0-partial_bit"/>
+	<item value="Local" key="ecat_tb_wrapper_hw_platform_0-target"/>
+	<item value="Auto Detect" key="ecat_tb_wrapper_hw_platform_0-device"/>
+	<item value="" key="ecat_tb_wrapper_hw_platform_0-bmmFile"/>
+	<item value="ecat_tb_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="D:\fpgawork\mmi\mmi.sdk\ecat_tb_wrapper_hw_platform_0\ecat_tb_wrapper.bit" key="mii_wrapper_hw_platform_0-bitFile"/>
+	<item value="Auto Detect" key="mii_wrapper_hw_platform_0-device"/>
+	<item value="" key="mii_wrapper_hw_platform_0-bmmFile"/>
+	<item value="false" key="ecat_tb_wrapper_hw_platform_0-partial_bit"/>
+</section>

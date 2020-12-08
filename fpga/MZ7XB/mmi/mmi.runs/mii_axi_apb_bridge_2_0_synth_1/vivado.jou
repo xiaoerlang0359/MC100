@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov  7 22:20:15 2020
+# Process ID: 21476
+# Current directory: D:/fpgawork/mmi/mmi.runs/mii_axi_apb_bridge_2_0_synth_1
+# Command line: vivado.exe -log mii_axi_apb_bridge_2_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mii_axi_apb_bridge_2_0.tcl
+# Log file: D:/fpgawork/mmi/mmi.runs/mii_axi_apb_bridge_2_0_synth_1/mii_axi_apb_bridge_2_0.vds
+# Journal file: D:/fpgawork/mmi/mmi.runs/mii_axi_apb_bridge_2_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mii_axi_apb_bridge_2_0.tcl -notrace

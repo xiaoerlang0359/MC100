@@ -1,0 +1,578 @@
+
+*** Running vivado
+    with args -log mii_axi_apb_bridge_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mii_axi_apb_bridge_1_0.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source mii_axi_apb_bridge_1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/fpgawork/mmi/mmi.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top mii_axi_apb_bridge_1_0 -part xc7z020clg400-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14172 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 835.977 ; gain = 182.293
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mii_axi_apb_bridge_1_0' [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ip/mii_axi_apb_bridge_1_0/synth/mii_axi_apb_bridge_1_0.vhd:90]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_INSTANCE bound to: axi_apb_bridge_inst - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_APB_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_APB_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_APB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_M_APB_PROTOCOL bound to: apb3 - type: string 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000001000011110000010000000000000000 
+	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000001000011110000011111111111111111 
+	Parameter C_S_AXI_RNG2_BASEADDR bound to: 64'b0000000000000000000000000000000000010000000000000000000000000000 
+	Parameter C_S_AXI_RNG2_HIGHADDR bound to: 64'b0000000000000000000000000000000000011111111111111111111111111111 
+	Parameter C_S_AXI_RNG3_BASEADDR bound to: 64'b0000000000000000000000000000000000100000000000000000000000000000 
+	Parameter C_S_AXI_RNG3_HIGHADDR bound to: 64'b0000000000000000000000000000000000101111111111111111111111111111 
+	Parameter C_S_AXI_RNG4_BASEADDR bound to: 64'b0000000000000000000000000000000000110000000000000000000000000000 
+	Parameter C_S_AXI_RNG4_HIGHADDR bound to: 64'b0000000000000000000000000000000000111111111111111111111111111111 
+	Parameter C_S_AXI_RNG5_BASEADDR bound to: 64'b0000000000000000000000000000000001000000000000000000000000000000 
+	Parameter C_S_AXI_RNG5_HIGHADDR bound to: 64'b0000000000000000000000000000000001001111111111111111111111111111 
+	Parameter C_S_AXI_RNG6_BASEADDR bound to: 64'b0000000000000000000000000000000001010000000000000000000000000000 
+	Parameter C_S_AXI_RNG6_HIGHADDR bound to: 64'b0000000000000000000000000000000001011111111111111111111111111111 
+	Parameter C_S_AXI_RNG7_BASEADDR bound to: 64'b0000000000000000000000000000000001100000000000000000000000000000 
+	Parameter C_S_AXI_RNG7_HIGHADDR bound to: 64'b0000000000000000000000000000000001101111111111111111111111111111 
+	Parameter C_S_AXI_RNG8_BASEADDR bound to: 64'b0000000000000000000000000000000001110000000000000000000000000000 
+	Parameter C_S_AXI_RNG8_HIGHADDR bound to: 64'b0000000000000000000000000000000001111111111111111111111111111111 
+	Parameter C_S_AXI_RNG9_BASEADDR bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+	Parameter C_S_AXI_RNG9_HIGHADDR bound to: 64'b0000000000000000000000000000000010001111111111111111111111111111 
+	Parameter C_S_AXI_RNG10_BASEADDR bound to: 64'b0000000000000000000000000000000010010000000000000000000000000000 
+	Parameter C_S_AXI_RNG10_HIGHADDR bound to: 64'b0000000000000000000000000000000010011111111111111111111111111111 
+	Parameter C_S_AXI_RNG11_BASEADDR bound to: 64'b0000000000000000000000000000000010100000000000000000000000000000 
+	Parameter C_S_AXI_RNG11_HIGHADDR bound to: 64'b0000000000000000000000000000000010101111111111111111111111111111 
+	Parameter C_S_AXI_RNG12_BASEADDR bound to: 64'b0000000000000000000000000000000010110000000000000000000000000000 
+	Parameter C_S_AXI_RNG12_HIGHADDR bound to: 64'b0000000000000000000000000000000010111111111111111111111111111111 
+	Parameter C_S_AXI_RNG13_BASEADDR bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_S_AXI_RNG13_HIGHADDR bound to: 64'b0000000000000000000000000000000011001111111111111111111111111111 
+	Parameter C_S_AXI_RNG14_BASEADDR bound to: 64'b0000000000000000000000000000000011010000000000000000000000000000 
+	Parameter C_S_AXI_RNG14_HIGHADDR bound to: 64'b0000000000000000000000000000000011011111111111111111111111111111 
+	Parameter C_S_AXI_RNG15_BASEADDR bound to: 64'b0000000000000000000000000000000011100000000000000000000000000000 
+	Parameter C_S_AXI_RNG15_HIGHADDR bound to: 64'b0000000000000000000000000000000011101111111111111111111111111111 
+	Parameter C_S_AXI_RNG16_BASEADDR bound to: 64'b0000000000000000000000000000000011110000000000000000000000000000 
+	Parameter C_S_AXI_RNG16_HIGHADDR bound to: 64'b0000000000000000000000000000000011111111111111111111111111111111 
+	Parameter C_DPHASE_TIMEOUT bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'axi_apb_bridge' declared at 'd:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:7175' bound to instance 'U0' of component 'axi_apb_bridge' [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ip/mii_axi_apb_bridge_1_0/synth/mii_axi_apb_bridge_1_0.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'axi_apb_bridge' [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:7284]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_INSTANCE bound to: axi_apb_bridge_inst - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_APB_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_APB_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_APB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_M_APB_PROTOCOL bound to: apb3 - type: string 
+	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000001000011110000010000000000000000 
+	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000001000011110000011111111111111111 
+	Parameter C_S_AXI_RNG2_BASEADDR bound to: 64'b0000000000000000000000000000000000010000000000000000000000000000 
+	Parameter C_S_AXI_RNG2_HIGHADDR bound to: 64'b0000000000000000000000000000000000011111111111111111111111111111 
+	Parameter C_S_AXI_RNG3_BASEADDR bound to: 64'b0000000000000000000000000000000000100000000000000000000000000000 
+	Parameter C_S_AXI_RNG3_HIGHADDR bound to: 64'b0000000000000000000000000000000000101111111111111111111111111111 
+	Parameter C_S_AXI_RNG4_BASEADDR bound to: 64'b0000000000000000000000000000000000110000000000000000000000000000 
+	Parameter C_S_AXI_RNG4_HIGHADDR bound to: 64'b0000000000000000000000000000000000111111111111111111111111111111 
+	Parameter C_S_AXI_RNG5_BASEADDR bound to: 64'b0000000000000000000000000000000001000000000000000000000000000000 
+	Parameter C_S_AXI_RNG5_HIGHADDR bound to: 64'b0000000000000000000000000000000001001111111111111111111111111111 
+	Parameter C_S_AXI_RNG6_BASEADDR bound to: 64'b0000000000000000000000000000000001010000000000000000000000000000 
+	Parameter C_S_AXI_RNG6_HIGHADDR bound to: 64'b0000000000000000000000000000000001011111111111111111111111111111 
+	Parameter C_S_AXI_RNG7_BASEADDR bound to: 64'b0000000000000000000000000000000001100000000000000000000000000000 
+	Parameter C_S_AXI_RNG7_HIGHADDR bound to: 64'b0000000000000000000000000000000001101111111111111111111111111111 
+	Parameter C_S_AXI_RNG8_BASEADDR bound to: 64'b0000000000000000000000000000000001110000000000000000000000000000 
+	Parameter C_S_AXI_RNG8_HIGHADDR bound to: 64'b0000000000000000000000000000000001111111111111111111111111111111 
+	Parameter C_S_AXI_RNG9_BASEADDR bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+	Parameter C_S_AXI_RNG9_HIGHADDR bound to: 64'b0000000000000000000000000000000010001111111111111111111111111111 
+	Parameter C_S_AXI_RNG10_BASEADDR bound to: 64'b0000000000000000000000000000000010010000000000000000000000000000 
+	Parameter C_S_AXI_RNG10_HIGHADDR bound to: 64'b0000000000000000000000000000000010011111111111111111111111111111 
+	Parameter C_S_AXI_RNG11_BASEADDR bound to: 64'b0000000000000000000000000000000010100000000000000000000000000000 
+	Parameter C_S_AXI_RNG11_HIGHADDR bound to: 64'b0000000000000000000000000000000010101111111111111111111111111111 
+	Parameter C_S_AXI_RNG12_BASEADDR bound to: 64'b0000000000000000000000000000000010110000000000000000000000000000 
+	Parameter C_S_AXI_RNG12_HIGHADDR bound to: 64'b0000000000000000000000000000000010111111111111111111111111111111 
+	Parameter C_S_AXI_RNG13_BASEADDR bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_S_AXI_RNG13_HIGHADDR bound to: 64'b0000000000000000000000000000000011001111111111111111111111111111 
+	Parameter C_S_AXI_RNG14_BASEADDR bound to: 64'b0000000000000000000000000000000011010000000000000000000000000000 
+	Parameter C_S_AXI_RNG14_HIGHADDR bound to: 64'b0000000000000000000000000000000011011111111111111111111111111111 
+	Parameter C_S_AXI_RNG15_BASEADDR bound to: 64'b0000000000000000000000000000000011100000000000000000000000000000 
+	Parameter C_S_AXI_RNG15_HIGHADDR bound to: 64'b0000000000000000000000000000000011101111111111111111111111111111 
+	Parameter C_S_AXI_RNG16_BASEADDR bound to: 64'b0000000000000000000000000000000011110000000000000000000000000000 
+	Parameter C_S_AXI_RNG16_HIGHADDR bound to: 64'b0000000000000000000000000000000011111111111111111111111111111111 
+	Parameter C_DPHASE_TIMEOUT bound to: 0 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'psel_decoder' [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:564]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_APB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_S_AXI_RNG1_BASEADDR bound to: 64'b0000000000000000000000000000000001000011110000010000000000000000 
+	Parameter C_S_AXI_RNG1_HIGHADDR bound to: 64'b0000000000000000000000000000000001000011110000011111111111111111 
+	Parameter C_S_AXI_RNG2_BASEADDR bound to: 64'b0000000000000000000000000000000000010000000000000000000000000000 
+	Parameter C_S_AXI_RNG2_HIGHADDR bound to: 64'b0000000000000000000000000000000000011111111111111111111111111111 
+	Parameter C_S_AXI_RNG3_BASEADDR bound to: 64'b0000000000000000000000000000000000100000000000000000000000000000 
+	Parameter C_S_AXI_RNG3_HIGHADDR bound to: 64'b0000000000000000000000000000000000101111111111111111111111111111 
+	Parameter C_S_AXI_RNG4_BASEADDR bound to: 64'b0000000000000000000000000000000000110000000000000000000000000000 
+	Parameter C_S_AXI_RNG4_HIGHADDR bound to: 64'b0000000000000000000000000000000000111111111111111111111111111111 
+	Parameter C_S_AXI_RNG5_BASEADDR bound to: 64'b0000000000000000000000000000000001000000000000000000000000000000 
+	Parameter C_S_AXI_RNG5_HIGHADDR bound to: 64'b0000000000000000000000000000000001001111111111111111111111111111 
+	Parameter C_S_AXI_RNG6_BASEADDR bound to: 64'b0000000000000000000000000000000001010000000000000000000000000000 
+	Parameter C_S_AXI_RNG6_HIGHADDR bound to: 64'b0000000000000000000000000000000001011111111111111111111111111111 
+	Parameter C_S_AXI_RNG7_BASEADDR bound to: 64'b0000000000000000000000000000000001100000000000000000000000000000 
+	Parameter C_S_AXI_RNG7_HIGHADDR bound to: 64'b0000000000000000000000000000000001101111111111111111111111111111 
+	Parameter C_S_AXI_RNG8_BASEADDR bound to: 64'b0000000000000000000000000000000001110000000000000000000000000000 
+	Parameter C_S_AXI_RNG8_HIGHADDR bound to: 64'b0000000000000000000000000000000001111111111111111111111111111111 
+	Parameter C_S_AXI_RNG9_BASEADDR bound to: 64'b0000000000000000000000000000000010000000000000000000000000000000 
+	Parameter C_S_AXI_RNG9_HIGHADDR bound to: 64'b0000000000000000000000000000000010001111111111111111111111111111 
+	Parameter C_S_AXI_RNG10_BASEADDR bound to: 64'b0000000000000000000000000000000010010000000000000000000000000000 
+	Parameter C_S_AXI_RNG10_HIGHADDR bound to: 64'b0000000000000000000000000000000010011111111111111111111111111111 
+	Parameter C_S_AXI_RNG11_BASEADDR bound to: 64'b0000000000000000000000000000000010100000000000000000000000000000 
+	Parameter C_S_AXI_RNG11_HIGHADDR bound to: 64'b0000000000000000000000000000000010101111111111111111111111111111 
+	Parameter C_S_AXI_RNG12_BASEADDR bound to: 64'b0000000000000000000000000000000010110000000000000000000000000000 
+	Parameter C_S_AXI_RNG12_HIGHADDR bound to: 64'b0000000000000000000000000000000010111111111111111111111111111111 
+	Parameter C_S_AXI_RNG13_BASEADDR bound to: 64'b0000000000000000000000000000000011000000000000000000000000000000 
+	Parameter C_S_AXI_RNG13_HIGHADDR bound to: 64'b0000000000000000000000000000000011001111111111111111111111111111 
+	Parameter C_S_AXI_RNG14_BASEADDR bound to: 64'b0000000000000000000000000000000011010000000000000000000000000000 
+	Parameter C_S_AXI_RNG14_HIGHADDR bound to: 64'b0000000000000000000000000000000011011111111111111111111111111111 
+	Parameter C_S_AXI_RNG15_BASEADDR bound to: 64'b0000000000000000000000000000000011100000000000000000000000000000 
+	Parameter C_S_AXI_RNG15_HIGHADDR bound to: 64'b0000000000000000000000000000000011101111111111111111111111111111 
+	Parameter C_S_AXI_RNG16_BASEADDR bound to: 64'b0000000000000000000000000000000011110000000000000000000000000000 
+	Parameter C_S_AXI_RNG16_HIGHADDR bound to: 64'b0000000000000000000000000000000011111111111111111111111111111111 
+INFO: [Synth 8-256] done synthesizing module 'psel_decoder' (1#1) [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:564]
+INFO: [Synth 8-638] synthesizing module 'multiplexor' [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:4148]
+	Parameter C_M_APB_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_APB_NUM_SLAVES bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'multiplexor' (2#1) [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:4148]
+INFO: [Synth 8-638] synthesizing module 'axilite_sif' [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:6098]
+	Parameter C_FAMILY bound to: zynq - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_DPHASE_TIMEOUT bound to: 0 - type: integer 
+	Parameter C_M_APB_PROTOCOL bound to: apb3 - type: string 
+INFO: [Synth 8-226] default block is never used [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:6346]
+INFO: [Synth 8-256] done synthesizing module 'axilite_sif' (3#1) [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:6098]
+INFO: [Synth 8-638] synthesizing module 'apb_mif' [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:6674]
+	Parameter C_M_APB_ADDR_WIDTH bound to: 32 - type: integer 
+	Parameter C_M_APB_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_APB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_M_APB_PROTOCOL bound to: apb3 - type: string 
+INFO: [Synth 8-256] done synthesizing module 'apb_mif' (4#1) [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:6674]
+INFO: [Synth 8-256] done synthesizing module 'axi_apb_bridge' (5#1) [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ipshared/7df3/hdl/axi_apb_bridge_v3_0_vh_rfs.vhd:7284]
+INFO: [Synth 8-256] done synthesizing module 'mii_axi_apb_bridge_1_0' (6#1) [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ip/mii_axi_apb_bridge_1_0/synth/mii_axi_apb_bridge_1_0.vhd:90]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port axi_awprot[2]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port axi_awprot[1]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port axi_awprot[0]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port S_AXI_WSTRB[3]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port S_AXI_WSTRB[2]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port S_AXI_WSTRB[1]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port S_AXI_WSTRB[0]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design apb_mif has unconnected port S_AXI_ARPROT[0]
+WARNING: [Synth 8-3331] design axilite_sif has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design axilite_sif has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design axilite_sif has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[31]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[30]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[29]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[28]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[27]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[26]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[25]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[24]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[23]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[22]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[21]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[20]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[19]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[18]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[17]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[16]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[15]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[14]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[13]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[12]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[11]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[10]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[9]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[8]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[7]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[6]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[5]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[4]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[3]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[2]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[1]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA2[0]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[31]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[30]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[29]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[28]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[27]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[26]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[25]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[24]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[23]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[22]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[21]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[20]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[19]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[18]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[17]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[16]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[15]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[14]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[13]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[12]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[11]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[10]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[9]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[8]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[7]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[6]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[5]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[4]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[3]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[2]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[1]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA3[0]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[31]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[30]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[29]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[28]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[27]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[26]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[25]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[24]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[23]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[22]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[21]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[20]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[19]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[18]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[17]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[16]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[15]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[14]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[13]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[12]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[11]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[10]
+WARNING: [Synth 8-3331] design multiplexor has unconnected port M_APB_PRDATA4[9]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 904.820 ; gain = 251.137
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 904.820 ; gain = 251.137
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 904.820 ; gain = 251.137
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ip/mii_axi_apb_bridge_1_0/mii_axi_apb_bridge_1_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/fpgawork/mmi/mmi.srcs/sources_1/bd/mii/ip/mii_axi_apb_bridge_1_0/mii_axi_apb_bridge_1_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/fpgawork/mmi/mmi.runs/mii_axi_apb_bridge_1_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/fpgawork/mmi/mmi.runs/mii_axi_apb_bridge_1_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1008.977 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1020.398 ; gain = 11.422
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1020.398 ; gain = 366.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1020.398 ; gain = 366.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/fpgawork/mmi/mmi.runs/mii_axi_apb_bridge_1_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1020.398 ; gain = 366.715
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'axi_wr_rd_cs_reg' in module 'axilite_sif'
+INFO: [Synth 8-802] inferred FSM for state register 'apb_wr_rd_cs_reg' in module 'apb_mif'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                axi_idle |                              000 |                              000
+               read_wait |                              001 |                              110
+                    read |                              010 |                              101
+                 rd_resp |                              011 |                              111
+              write_wait |                              100 |                              011
+            write_w_wait |                              101 |                              010
+                   write |                              110 |                              001
+                 wr_resp |                              111 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'axi_wr_rd_cs_reg' using encoding 'sequential' in module 'axilite_sif'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                apb_idle |                              001 |                               00
+               apb_setup |                              010 |                               01
+              apb_access |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'apb_wr_rd_cs_reg' using encoding 'one-hot' in module 'apb_mif'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1020.398 ; gain = 366.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 7     
+	   3 Input     32 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 13    
+	   8 Input      1 Bit        Muxes := 8     
+	   3 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module multiplexor 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module axilite_sif 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 7     
+	   8 Input      1 Bit        Muxes := 8     
+Module apb_mif 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1020.398 ; gain = 366.715
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1020.398 ; gain = 366.715
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1025.914 ; gain = 372.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1027.164 ; gain = 373.480
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.949 ; gain = 379.266
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.949 ; gain = 379.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.949 ; gain = 379.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.949 ; gain = 379.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.949 ; gain = 379.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.949 ; gain = 379.266
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |    35|
+|3     |LUT3 |    35|
+|4     |LUT4 |    35|
+|5     |LUT5 |    39|
+|6     |LUT6 |    14|
+|7     |FDRE |   143|
+|8     |FDSE |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------------------------+---------------+------+
+|      |Instance                    |Module         |Cells |
++------+----------------------------+---------------+------+
+|1     |top                         |               |   303|
+|2     |  U0                        |axi_apb_bridge |   303|
+|3     |    APB_MASTER_IF_MODULE    |apb_mif        |    76|
+|4     |    AXILITE_SLAVE_IF_MODULE |axilite_sif    |   226|
+|5     |    MULTIPLEXOR_MODULE      |multiplexor    |     1|
++------+----------------------------+---------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.949 ; gain = 379.266
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 490 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 1032.949 ; gain = 263.688
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.949 ; gain = 379.266
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1044.793 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:39 ; elapsed = 00:00:42 . Memory (MB): peak = 1044.793 ; gain = 658.270
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1044.793 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/fpgawork/mmi/mmi.runs/mii_axi_apb_bridge_1_0_synth_1/mii_axi_apb_bridge_1_0.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP mii_axi_apb_bridge_1_0, cache-ID = c0a0c70391762506
+INFO: [Coretcl 2-1174] Renamed 4 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1044.793 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/fpgawork/mmi/mmi.runs/mii_axi_apb_bridge_1_0_synth_1/mii_axi_apb_bridge_1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mii_axi_apb_bridge_1_0_utilization_synth.rpt -pb mii_axi_apb_bridge_1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  7 22:21:06 2020...
